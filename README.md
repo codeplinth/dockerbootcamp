@@ -52,6 +52,12 @@ list running containers
 
 list all containers
 
+**Jenkins on docker**
+
+docker pull jenkins/jenkins:lts
+
+docker run -u 0 -d --name myjenkins -p 9090:8080 -p 50000:50000 -v /home/kali/projects/playground/lear
+n_docker/jenkins_home:/var/jenkins_home jenkins/jenkins:lts
 
 
 
