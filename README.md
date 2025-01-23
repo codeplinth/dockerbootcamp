@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=wi-MGFhrad0&list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp2rK
+
 ## Docker commands
 
 **docker -v**
@@ -56,8 +58,9 @@ list all containers
 
 docker pull jenkins/jenkins:lts
 
-docker run -u 0 -d --name myjenkins -p 9090:8080 -p 50000:50000 -v /home/kali/projects/playground/lear
-n_docker/jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+docker run --name myjenkins -u 0 -d -p 8080:8080 -p 50000:50000 -v /home/kali/projects/playground/learn_docker/jenkins_home:/var/jenkins_home jenkins/jenkins
+
+cat jenkins_home/secrets/initialAdminPassword
 
 
 
