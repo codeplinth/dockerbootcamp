@@ -2,10 +2,25 @@ https://www.youtube.com/watch?v=wi-MGFhrad0&list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp
 
 ## Docker commands
 
+**Basic commands**
+docker verson
+docker -v
+docker info
+docker command --help
+
+**Images**
+docker images
+docker pull
+docker run
+docker rmi
+docker inspect
+
+**Containers**
+
 **docker verson**
 Show docker version , engine information
 
-**drocker -v**
+**docker -v**
 
 show the version of the docker installed
 
