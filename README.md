@@ -2,13 +2,20 @@ https://www.youtube.com/watch?v=wi-MGFhrad0&list=PLhW3qG5bs-L99pQsZ74f-LC-tOEsBp
 
 ## Docker commands
 
-**docker -v**
+**docker verson**
+Show docker version , engine information
+
+**drocker -v**
 
 show the version of the docker installed
 
 **docker info**
 
 Show docker system wide information
+
+**docker command --help**
+
+show help for docker coomand
 
 **docker images**
 
@@ -21,6 +28,10 @@ pull lastest image from docker hub
 **docker pull image:tag**
 
 pull the image with tag
+
+**docker rmi image**
+
+remove docker image
 
 **docker run -it image**
 
